@@ -1,0 +1,68 @@
+
+
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="<?php echo APPURL; ?>/index.php">Home</a></li>
+            <?php if (isset($_SESSION['username'])) : ?>
+            <li><a href="<?php echo APPURL; ?>/topics/create.php">Topic toevoegen</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <?php echo $_SESSION['username'];?>
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Profail</a></li>
+            <li><a href="#">user</a></li>
+            <li><a href="<?php echo APPURL; ?>/auth/logout.php">Logout</a></li>
+          </ul>
+        </li>
+          <?php else : ?>
+          <li><a href="<?php echo APPURL; ?>/auth/register.php">Register</a></li>
+          <li><a href="<?php echo APPURL; ?>/auth/login.php">login</a></li>
+          <?php endif ; ?>
+          </ul>
+        </div><!--/.nav-collapse -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* 
+Constante namen hebben geen leidend dollarteken ($) nodig
+Constanten zijn toegankelijk ongeacht het bereik
+Constante waarden kunnen alleen tekenreeksen en getallen zijnwill be shown to the user. */
+
+    $conn = new PDO("mysql:host=" . HOST . ";dbname=" . DBNAME, USER, PASS);
+    /*  new PDO is een constructor die een nieuw PDO-object creëert, dat de verbinding met de database vertegenwoordigt.
+     PDO (PHP Data Objects) is een extensie in PHP die een consistente interface biedt voor het werken met databases, waaronder MySQL */
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    /* Wanneer een fout optreedt, zal PDO een PDOException uitzondering genereren.
+     Met behulp van ERRMODE_EXCEPTION wordt deze uitzondering automatisch opgeworpen,
+     waardoor je niet handmatig elke keer een foutcontrole hoeft uit te voeren.*/
+    
+
+
+
+
+    // echo "Website is working!";
+} catch (PDOException $Exception) {
+    // die wordt gebruikt voor het afhandelen van fouten die optreden bij het werken met de PDO-extensie.
+    echo $Exception->getMessage();
+    // echo "Website is not working.";
+}

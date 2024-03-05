@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Randomfont1;
+    src: url(../fonts/BookshelfSymbol2.ttf);}
+@font-face {
+    font-family: RandomFont2;
+    src: url(../fonts/ArchitectsHand.ttf);}
+@font-face {
+    font-family: Randomfont3;
+    src: url(../fonts/AlphaSmart3000.ttf);}
+@font-face {
+    font-family: RandomFont4;
+    src: url(../fonts/BookshelfSymbol1.ttf);}
+@font-face {
+    font-family: Randomfont5;
+    src: url(../fonts/impact.ttf);}
+@font-face {
+    font-family: Randomfont6;
+    src: url(../fonts/dopplegangerPW.ttf);}
+@font-face {
+    font-family: Randomfont7;
+    src: url(../fonts/BookshelfSymbol3.ttf);}
+@font-face {
+    font-family: Randomfont8;
+    src: url(../fonts/HAVECRUS.ttf);}
+@font-face {
+    font-family: Randomfont9;
+    src: url(../fonts/kiddg.ttf);}
+@font-face {
+    font-family: Randomfont10;
+    src: url(../fonts/BookshelfSymbol4.ttf);}
+@font-face {
+    font-family: Randomfont11;
+    src: url(../fonts/PIXEARG_.TTF);}
+@font-face {
+    font-family: Randomfont12;
+    src: url(../fonts/TheSans-B6SemiBoldItalic.otf);}
+@font-face {
+    font-family: Randomfont13;
+    src: url(../fonts/BookshelfSymbol5.ttf);}
+@font-face {
+    font-family: Randomfont14;
+    src: url(../fonts/TheSans-ExpertItalic.otf);}
+@font-face {
+    font-family: Randomfont15;
+    src: url(../fonts/timesnewarial.ttf);}
+@font-face {
+    font-family: Randomfont16;
+    src: url(../fonts/BookshelfSymbol6.TTF);}
+@font-face {
+    font-family: Randomfont17;
+    src: url(../fonts/TrajanusBricksXtra.ttf);}
+@font-face {
+    font-family: Randomfont18;
+    src: url(../fonts/unicode.arialr.ttf);}
+@font-face {
+    font-family: Randomfont19;
+    src: url(../fonts/wingding.ttf);}
+@font-face {
+    font-family: Randomfont20;
+    src: url(../fonts/Wing\ Kitchen.otf);}
+
+body{
+    animation:fonts 1s infinite;
+}
+
+@media only screen 
+and (max-width:600px){
+    body{
+        animation: fonts 1s infinite;
+    }
+}
+
+@keyframes fonts {
+    0% {font-family: Randomfont1;}
+    5% {font-family: Randomfont2;}
+    10% {font-family: Randomfont3;}
+    15% {font-family: Randomfont4;}
+    20% {font-family: Randomfont5;}
+    25% {font-family: Randomfont6;}
+    30% {font-family: Randomfont7;}
+    35% {font-family: Randomfont8;}
+    40% {font-family: Randomfont9;}
+    45% {font-family: Randomfont10;}
+    50% {font-family: Randomfont11;}
+    55% {font-family: Randomfont12;}
+    60% {font-family: Randomfont13;}
+    65% {font-family: Randomfont14;}
+    70% {font-family: Randomfont15;}
+    75% {font-family: Randomfont16;}
+    80% {font-family: Randomfont17;}
+    85% {font-family: Randomfont18;}
+    90% {font-family: Randomfont19;}
+    95% {font-family: Randomfont20;}
+    100% {font-family: Randomfont1;}
+}

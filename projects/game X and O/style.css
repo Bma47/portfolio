@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'Delicious Handrawn', cursive;
+
+}
+
+
+.game {
+
+border-radius: 50px;
+text-align: center;
+color: rgb(255, 255, 255);
+font-weight: 300;
+background-image: linear-gradient( #fff,#00d9ff,#fff);    
+}
+
+
+
+.vierkant{
+padding: 4px;
+width: 100px;
+height: 100px;
+background-color: #4169e1;
+margin: 9px;
+font-size: 50px;
+border-radius: 10px;
+align-items: center;
+justify-content: center;
+}
+
+.vierkant:hover{
+background-color: rgba(0, 0, 0, 0.403);
+cursor: pointer;
+padding: 10px;
+}
+.row{
+align-items: center;
+justify-content: center;
+
+
+
+}
+
+#title{
+background-color: #000;
+border-radius: 20px;
+text-align: center;
+align-items: center;
+z-index: 1;
+font-size: 80px;
+font-weight: 2000;
+-webkit-text-stroke: 3px rgb(255, 0, 0);
+color: transparent;
+background-image: linear-gradient( #00d9ff,#fff);
+background-repeat:no-repeat;
+-webkit-background-clip: text;
+background-position:-1500px 0 ;
+animation: backcolor 3s linear infinite;
+    
+    }
+    
+    @keyframes backcolor{
+    100%{
+        background-position: 0 0 ;
+    }
+    
+}
+.btn{
+
+color: rgb(0, 0, 0);
+margin: 15px;
+width: 200px;
+height: 210px;   
+font-size: 40px;
+border-radius: 30px;
+}
+.btn:hover{
+transform: scale(1.1);
+}
+.row{
+width: 100%;
+
+
+}
+#canvas-container {
+    position: absolute;
+    background-color: #fff;
+    top: 100px;
+  margin-left: 350px;
+  margin-top:30px;
+  
+    width: 500px;
+    height: 500px;
+    border: 2px solid #000;
+  }
+  
+  #canvas {
+    cursor: crosshair;
+    color: #4169e1;
+  }
+  

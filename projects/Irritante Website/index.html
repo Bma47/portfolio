@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Irritante Website</title>
+
+        <link rel="stylesheet" href=" css/main.css">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/fonts.css">
+    </head>
+
+    <body>
+        <img id="logo" src="img/favicon.png" alt="logo">
+
+<!-- left-->
+        <div id="white"></div>
+        
+        <div id="tekst">
+            <br> <br> <br> <br> <br> <br>
+            <h1 id="h1">
+                Daily tappable tech news <br> and stories
+            </h1>
+            <p id="p">
+                Every weekday Sig surfaces the most interesting and important <br>
+                tech stories of the day. From breaking news to porfilers on favorite <br> tech products
+            </p>
+            <a href="html/mirrored.html"><img class="app_store" src="img/download-ios.svg" alt="Apple store"></a>
+            <a href="html/mirrored.html"><img class="app_store" src="img/download-android.svg" alt="Google play"></a>
+            <button type="submit" class="btn" onclick="openPopup()">ok</button>
+            <div class="popup" id="popup">
+                <h2 class="alert"Alert></h2>
+                <p>Alert</p>
+                <button type="button" onclick="closePopup()">OK</button>
+        </div>
+
+
+      
+
+        <!-- richt-->
+        <div id="red"></div>
+        <div id="telefoon">
+            <img src="img/iphone.png" alt="iphone">
+        </div>
+        <div class="video"  >
+            <video controls autoplay loop src="video/Beige Lichtbruin Wit Eigenzinnig Kunstenaar Generiek YouTube Intro.mp4"></video>
+        </div>
+
+        <script>
+            let popup = document.getElementById("popup");
+            
+            function openPopup(){
+                popup.classList.add("open-popup");
+                
+            }
+            function closePopup(){
+            popup.classList.remove("open-popup");
+            
+            }
+            
+            
+            
+            </script>
+        <script src="js/logo.js"></script> 
+       <script src="js/background.js"></script>
+       <script src="js/main.js"></script>
+
+    </body>
+</html>

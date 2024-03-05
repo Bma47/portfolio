@@ -1,0 +1,86 @@
+*{
+margin: 0;
+padding: 0;
+
+
+}
+
+
+.difficulty{
+color: white;
+align-items: center;
+z-index: 1;
+font-size: 70px;
+margin-bottom: 300px;
+margin-left: -5px;
+
+-webkit-text-stroke: 3px #fff;
+color: transparent;
+background-image: linear-gradient( #ff0000,#fff);
+background-repeat:no-repeat;
+-webkit-background-clip: text;
+background-position:-800px 0 ;
+animation: backcolor 5s linear infinite;
+
+
+}
+
+@keyframes backcolor{
+100%{
+    background-position: 0 0 ;
+}
+
+
+
+
+}
+.btn2
+    
+{
+ 
+    height: 50px;
+    width:80px;
+    top: -350px;
+    margin-left: 90px;
+
+    cursor: pointer;
+    background-color: rgb(123, 255, 0);
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 25px;
+     
+ }
+.btn2 {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    text-align: center;
+    transform: scale(1.1);    
+  }
+  
+  .btn2:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
+  .btn3
+    
+  {
+ height: 50px;
+      width:80px;
+      top: -350px;
+      margin-left:-470px;
+      cursor: pointer;
+      background-color: rgb(123, 255, 0);
+      font-size: 25px;
+      position: relative;
+      cursor: pointer;
+      border-radius: 25px;
+border: none;
+       
+   }
+   .btn3:hover {
+    background-color: #3e8e41;
+    color: white;
+  }

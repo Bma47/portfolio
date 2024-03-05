@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: 0;
+    Neo Sans is a sans serif typeface from Monotype
+    }
+    
+    .container{
+      height:100%;
+      width: 800%;
+      position: absolute;
+      margin-top: -65px;
+
+
+      background-repeat: repeat-x;
+      background-size: cover;
+      justify-content: center;
+ 
+
+    }
+
+    .mario{
+      width: 100%;
+      height: 100vh;
+      background-image: url(img/map1.jpg) ;
+     background-repeat: no-repeat;
+     position: absolute;
+    background-size: cover;
+    margin-top: 40px;
+    }
+    .music > button
+    
+   {
+    
+        height: 40px;
+        width: 70px;
+        margin-top: -600px;
+        margin-left: 100px;
+        background-color: rgb(255, 255, 255);  
+        color: rgb(255, 145, 0);
+        font-size: 20px;
+        opacity: 0.9;
+      
+        position: fixed;
+        cursor: pointer;
+        border-radius: 9px;
+        
+        
+    }
+
+      
+      .music button:hover {
+        background-color: #3e8e41;
+        color: white;
+      }
+    
+    
+.keyboard{
+    
+width: 200px;
+height:200px;
+background-color: rgb(83, 83, 83);
+color: yellow;
+
+left: 50%;
+top: 50%;
+opacity: 0.9;
+border-radius: 10%;
+justify-content: space-between;
+align-items: center;
+transform: translate(-50% ,-50%);
+justify-content: center;
+display: flex;
+margin-top: 100px;
+margin-left: 1200px;
+gap: 10px;
+
+z-index: 2;  
+}
+.keyboard > button{
+    background-color: #ddd;
+    border: none;
+    color: black;
+    text-align: center;
+    transform: scale(1.1); 
+    border-radius: 9px;   
+  }
+  
+  .keyboard button:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
+
+
+
+.up {
+    color: rgb(255, 145, 0);
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+height: 50px;
+align-items: center;
+position: fixed;
+margin-top: -10px;
+gap: 30px;
+margin-bottom: 110px;
+margin-right: 1px;
+cursor: pointer;
+
+}
+
+.keyup{
+    font-size: 30px;
+}
+.down {
+    color: rgb(255, 145, 0);
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+
+    }
+    .right {
+        color: rgb(255, 145, 0);
+        background-color: rgb(255, 255, 255);
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+
+        }
+        .left    {
+            color: rgb(255, 145, 0);
+            background-color: rgb(255, 255, 255);
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+
+            }
+
+
+          
+

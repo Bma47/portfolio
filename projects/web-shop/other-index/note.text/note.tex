@@ -1,0 +1,48 @@
+
+<header>
+
+
+<nav class="navigation">
+<a href="#" class="logo"><img src="images/logo.png" height="120" width="120"></a>
+
+<input type="checkbox" id="check" style="display: none;">
+ <label  for="check"  class="checkbtn"><i class="fa-solid fa-bars"></i></label>
+
+
+    <ul>
+      <li><a  href="index.php" class="<?= isActiveNavItem('login') ? 'nav-items__active' : '' ?>"><i class="h-icon fa-solid fa-house" ></i><span class="nav-item__text">Home</span></a></li>
+   
+
+
+      <li><a  href="#" class="<?= isActiveNavItem('login') ? 'nav-items__active' : '' ?>">Games <i class="h-icon fa-solid fa-caret-down"></i></a>
+        <ul class="dropdown">
+            <li><a  href="pages/action.php" class="<?= isActiveNavItem('index') ? 'nav-items__active' : '' ?>"><span class="nav-item__text">Action</span></a></li>
+            <li><a  href="pages/fighting.php" class="<?= isActiveNavItem('index') ? 'nav-items__active' : '' ?>"><span class="nav-item__text"></span>Fighting</a></li>
+            <li><a  href="pages/sport.php" class="<?= isActiveNavItem('index') ? 'nav-items__active' : '' ?>"><span class="nav-item__text"></span>Sports</a></li>
+            <li><a  href="pages/shooter.php" class="<?= isActiveNavItem('index') ? 'nav-items__active' : '' ?>"><span class="nav-item__text">Shooter</span></a></li>
+            <li><a  href="pages/adventure.php" class="<?= isActiveNavItem('index') ? 'nav-items__active' : '' ?>"><span class="nav-item__text">Adventure</span></a></li>
+            <li><a  href="pages/cars.php" class="<?= isActiveNavItem('index') ? 'nav-items__active' : '' ?>"><span class="nav-item__text">racing car</span></a></li>
+
+
+            
+        </ul>
+        </li>
+          <li> <a  href="contact.php" class="<?= isActiveNavItem('index') ? 'nav-items__active' : '' ?>"><i class="h-icon fa-brands fa-wpforms" ></i><span class="nav-item__text">Contact</span></a></li>
+          <!-- <li><a  href="blog.html">Blog<i class="fa-brands fa-blogger-b"></i></a></li> -->
+          <li><a  href="#" class="<?= isActiveNavItem('index') ? 'nav-items__active' : '' ?>" >Shopping <i class="h-icon fa-solid fa-bag-shopping"></i></a></li>
+          <li><a  href="#" class="<?= isActiveNavItem('index') ? 'nav-items__active' : '' ?>" >Account <i class="h-icon fa-solid fa-caret-down" ></i></a>
+            <ul class="dropdown">
+            <?php if(!isLoggedIn()): ?>
+            <li><a  href="login.php" class="<?= isActiveNavItem('login') ? 'nav-items__active' : '' ?>">Login</a></li>
+            <li><a  href="register.php" class="<?= isActiveNavItem('register') ? 'nav-items__active' : '' ?>"> registeren </a></li>
+
+            <?php else: ?>
+            <li><a  href="logout.php" class="<?= isActiveNavItem('logout') ? 'nav-items__active' : '' ?>"> logout </a></li>
+            <?php endif; ?>
+
+            </ul>
+            </li>
+            </ul>
+            </nav>
+</header>
+

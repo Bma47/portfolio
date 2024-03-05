@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0c697fb-77d8-4585-8a7a-d5918e62b892" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/css/templatemo-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-01-big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/img-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/people-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/people-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/people-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/people-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/section-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/section.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/img/select-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/public/video/hero.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/760451.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-01-big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/img-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/people-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/people-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/people-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/people-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/section.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/select-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/assets/img/under-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/components/Container/Container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/components/Container/Container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/components/Container/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/components/Home/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/components/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/components/index-main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/sections/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/sections/Navbar/Navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/sections/Navbar/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/movie/src/sections/index-sections.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/movie/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/movie/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/movie/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/movie/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/movie/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/movie/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projects/movie" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ZCtUB0bEkNFgFQOr5BNhGFt3xG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/xampp1/htdocs/portfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp1\htdocs\portfolio\projects\forum-laravel\dev\public" />
+      <recent name="C:\xampp1\htdocs\portfolio\images\hobbies" />
+      <recent name="C:\xampp1\htdocs\portfolio" />
+      <recent name="C:\xampp1\htdocs\portfolio\projects\forum-laravel\desgin" />
+      <recent name="C:\xampp1\htdocs\portfolio\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp1\htdocs\portfolio\projects\forum-laravel\dev\public\img" />
+      <recent name="C:\xampp1\htdocs\portfolio\projects\forum-laravel\dev\public\images" />
+      <recent name="C:\xampp1\htdocs\portfolio\images" />
+      <recent name="C:\xampp1\htdocs\portfolio\images\topics" />
+      <recent name="C:\xampp1\htdocs\portfolio" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0c697fb-77d8-4585-8a7a-d5918e62b892" name="Changes" comment="" />
+      <created>1701937901575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701937901575</updated>
+      <workItem from="1701937902607" duration="10822000" />
+      <workItem from="1702293929469" duration="4392000" />
+      <workItem from="1702311858027" duration="450000" />
+      <workItem from="1702455786195" duration="11190000" />
+      <workItem from="1702541521428" duration="7098000" />
+      <workItem from="1702629529757" duration="4324000" />
+      <workItem from="1702636959596" duration="4610000" />
+      <workItem from="1702886224674" duration="9652000" />
+      <workItem from="1702905106062" duration="9575000" />
+      <workItem from="1702926440289" duration="14965000" />
+      <workItem from="1703015889258" duration="4105000" />
+      <workItem from="1703020489503" duration="637000" />
+      <workItem from="1703079536455" duration="5995000" />
+      <workItem from="1703155359189" duration="2000" />
+      <workItem from="1704708762137" duration="5074000" />
+      <workItem from="1704803649826" duration="1737000" />
+      <workItem from="1705408748658" duration="600000" />
+      <workItem from="1705496609754" duration="1057000" />
+      <workItem from="1706172880904" duration="64000" />
+      <workItem from="1706519098176" duration="1336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

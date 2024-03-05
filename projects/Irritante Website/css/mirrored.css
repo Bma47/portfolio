@@ -1,0 +1,182 @@
+body{
+    display: grid;
+    grid-template-columns: 10vw 30vw 10vw 15vw 20vw 15vw;
+    grid-template-rows: 10vh 80vh 10vh;
+    background-color: black;
+    margin: 0px;
+    transform: scale(-1, -1);
+}
+
+#white{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url(../img/Most_8653e5_460736.jpg);
+}
+
+#tekst{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 10px;
+    color: aliceblue;
+    background-color: #000;
+    opacity: 0.8;
+
+}
+
+#tekst>p{
+
+    font-size: 21;
+    width:490px;
+    height: 72px;
+    font-size: 15px;
+
+    transform: scale(-1, -1);
+    margin-left: -50px;
+
+}
+
+#logo{
+    height: 100px;
+    position: absolute;
+}
+
+.app_store{
+    width: 240px;
+    height: 47.73px;
+}
+
+#red{
+    background-color: red;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#telefoon{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+}
+
+#telefoon img{
+    height: auto;
+    width: 100%;
+}
+
+@media only screen 
+and (max-width:600px){
+    body{
+        display: grid;
+        grid-template-columns: 8vw 84vw 8vw;
+        grid-template-rows: 10vh 80vh 10vh 10vh 80vh 10vh;
+        background-color: black;
+        margin: 0px;
+        max-height: 200vh;
+    }
+
+    #white{
+        background-color: white;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    #tekst{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    #red{
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 7;
+    }
+
+    #telefoon{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+    #telefoon img{
+        height: 80vh;
+        width: auto;
+    }
+}
+
+.btn{
+width: 40px;
+height: 40px;
+cursor: pointer;
+font-size: 30px;
+transition: 0.3s;
+background-color: rgb(0, 0, 0);
+
+
+}
+
+
+.btn:hover{
+transform: scale(1.1)
+
+}
+
+
+
+.video{
+    height: 53vh;
+    width: 159%;
+margin-left: 1025px; 
+margin-top: -630px;
+position: relative;
+
+
+  }
+
+
+  
+  .video > video{
+    height: 100%;
+    width: 100%;
+    
+  
+  
+  }
+
+  
+
+  .popup{
+    width: 400px;
+    background: rgb(255, 0, 0);
+    border-radius: 6px;
+    left:50% ;
+    top: 50%;
+    font-size: 100px;
+    position: absolute;
+    text-align: center;
+    padding: 0 30px 30px ;
+    color: #333;
+    transform: translate(-50%, -50%)scale(0.1);
+    visibility: hidden;
+    
+    }
+    .open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    
+    
+    }

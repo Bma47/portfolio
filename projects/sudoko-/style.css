@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+  body {
+    font-family: sans-serif;
+                background-image: linear-gradient(#ffffff ,#0dcaf0  , #ffffff);
+  }
+  
+  /* Style the H1 heading */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Set the width of the container and center it horizontally */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Style the input fields */
+  input[type="text"] {
+    width: 70px;
+    height:70px;
+    text-align: center;
+    font-weight: bold;
+
+    font-size: 24px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style the list items */
+  li {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+  }
+  
+  /* Clear floats after every third list item */
+  li:nth-child(3n+1) {
+    clear: left;
+  }
+  
+  /* Style the rows */
+  .row {
+    margin-bottom: 10px;
+  }
+  
+  
+  li:nth-child(n):nth-child(-n+9) {
+    border-top-width: 4px;
+  }
+  li:nth-child(n+73):nth-child(-n+81) {
+    border-bottom-width: 4px;
+  }
+  li:nth-child(3n) {
+    border-right-width: 4px;
+  }
+  li:nth-child(9n+1) {
+    border-left-width: 4px;
+  }
+  li:nth-child(n+19):nth-child(-n+27) {
+    border-bottom-width: 4px;
+  }
+  li:nth-child(n+46):nth-child(-n+54) {
+    border-bottom-width: 4px;
+  }
+  
+  ul {
+    display: grid;
+grid-template-columns: repeat(9, 5vw);
+    grid-template-rows: repeat(9, 5vw);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 0rem;
+    list-style: none;
+    position: relative;
+
+    border-collapse: collapse;
+    font-weight: bold;
+    margin-top: 1em;
+    margin: 0 0 2vw;
+    padding: 0;
+    font-size: calc(2vw + 10px);
+  }
+  li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+      margin-top: 0.4rem;
+    }  
+  }
+  
+  .note {
+    background: #EEEEEE;
+    font-family: monospace;
+    padding: 2em 5em;
+    font-size: 120%;
+    order: -1;
+  }
+  @supports (display:grid) {
+    .note {display:none;}
+  }
+.col-10{
+text-transform: uppercase;
+text-align: center;
+font-size: 50px;
+
+
+}
+.btn{
+margin: 4px;
+font-family: 'Delicious Handrawn', cursive;
+
+}
+#text{
+font-family: 'Delicious Handrawn', cursive;
+color:  #0dcaf0;
+;
+}
+
+.form-control:disabled {
+
+  opacity: 1;
+}
+
+
+
+
+#sudoku{
+  font-size: 30px;
+  background-color: #000000;
+  border-radius: 20px;
+color: #EEEEEE;
+  text-align: center;
+}
+
+
+#canvas-container {
+  position: absolute;
+  background-color: #fff;
+  top: 100px;
+margin-left: 900px;
+margin-top:140px;
+
+  width: 500px;
+  height: 500px;
+  border: 2px solid #000;
+}
+
+#canvas {
+  cursor: crosshair;
+  color: #4169e1;
+}
+button{
+transition: 0.3s;
+
+
+}
+button:hover{
+transform:scale(1.1)
+
+}
+
