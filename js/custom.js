@@ -32,7 +32,7 @@
         center: true,
         loop: true,
         margin: 30,
-        autoplay: true,
+        autoplay: false,
         responsiveClass: true,
         responsive:{
             0:{
