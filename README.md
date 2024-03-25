@@ -21,7 +21,7 @@
 <h3>Ontwikkeld door <br> <span style="color: #0f9d58">Bashir Malla Ali </span></h3>
 </div>  
 <img src="card-id.png">
-<li>Portfolio</li>
+<li>Projecten</li>
 <ul>
 <li>Webgame</li>
 <li>Irritante webpagina</li>
