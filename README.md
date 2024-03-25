@@ -20,14 +20,16 @@
 
 <h3>Ontwikkeld door <br> <span style="color: #0f9d58">Bashir Malla Ali </span></h3>
 </div>  
-<img src="card-id.png">
+<img src="dev/public/images/software-development.png">
 <li>Portfolio</li>
 <ul>
 <li>Webgame</li>
 <li>Irritante webpagina</li>
 <li>Web shop</li>
 <li>Form-laravel</li>
+<li>TODO-APP</li>
 <li>React</li>
+<li>Websocket</li>
 
 
 </ul>
