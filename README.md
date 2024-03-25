@@ -1,18 +1,3 @@
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Bashir Malla Ali">
-
-
-  <!-- CSS FILES -->
-
-  <link href="css/mijn-style.css](https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-</head>
-
-<body>
 
 <div style="font-family: 'Merienda One'">
 <div style="text-align: center; ">
@@ -23,19 +8,16 @@
 <img src="card-id.png">
 <li>Projecten</li>
 <ul>
-<li>Webgame</li>
-<li>Irritante webpagina</li>
-<li>Web shop</li>
-<li>Form-laravel</li>
-<li>TODO-APP</li>
-<li>React</li>
-<li>Websocket</li>
+<li>Webgame  <span style="color: #0f9d58">HTML | CSS | JAVASCRIPT</span></li> 
+<li>Irritante webpagina <span style="color: #0f9d58">HTML | CSS | JAVASCRIPT </span></li>
+<li>Web shop <span style="color: #0f9d58">HTML | CSS | PHP | MYSQL </span></li>
+<li>Form-laravel <span style="color: #0f9d58">Framwork van PHP</span></li>
+<li>TODO-APP <span style="color: #0f9d58">HTML | CSS | PHP | API </span></li>
+<li>searchbar <span style="color: #0f9d58">React | API | TMDP (movies)</span></li>
+<li>Websocket <span style="color: #0f9d58">heden </span></li>
 
 
 </ul>
 </div>
 
 
-
-</body>
-</html>
