@@ -20,7 +20,7 @@
 
 <h3>Ontwikkeld door <br> <span style="color: #0f9d58">Bashir Malla Ali </span></h3>
 </div>  
-<img src="dev/public/images/software-development.png">
+<img src="card-id.png">
 <li>Portfolio</li>
 <ul>
 <li>Webgame</li>
